@@ -4,15 +4,24 @@
 #include <iostream>
 using namespace std;
 
+
 void greeting();
+
+
+void add(int a, int b)
+{
+    int c = a + b;
+    cout << c<<endl;
+}
 
 int main()
 {
-    int a = 3, b = 7;
+    int a = 3, c = 7;
     cout << "Hello World edited!\n";
     cout << "Git demo\n";
     char n = 'N';
     char b = 6;
+
 
     greeting();
     greeting();
@@ -21,6 +30,8 @@ int main()
 
 void greeting() {
     cout << "Hello there\n";
+    add(3, 7);
+    add(4,5);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
