@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+void greeting();
+
 int main()
 {
     int a = 3, b = 7;
@@ -11,6 +13,14 @@ int main()
     cout << "Git demo\n";
     char n = 'N';
     char b = 6;
+
+    greeting();
+    greeting();
+    greeting();
+}
+
+void greeting() {
+    cout << "Hello there\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
