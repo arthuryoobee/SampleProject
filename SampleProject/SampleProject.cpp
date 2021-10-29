@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    int a = 3, b = 7;
     cout << "Hello World edited!\n";
     cout << "Git demo\n";
 }
