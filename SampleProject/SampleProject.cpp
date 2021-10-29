@@ -10,7 +10,7 @@ int main()
     cout << "Hello World edited!\n";
     cout << "Git demo\n";
     char n = 'N';
-    char n = 6;
+    char b = 6;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
