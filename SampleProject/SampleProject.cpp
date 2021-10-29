@@ -6,6 +6,11 @@ using namespace std;
 
 
 void greeting();
+void subract(int x, int z)
+{
+    int y = x - z;
+    cout << y;
+}
 
 
 void add(int a, int b)
@@ -26,6 +31,8 @@ int main()
     greeting();
     greeting();
     greeting();
+
+    subract(10, 20);
 }
 
 void greeting() {
